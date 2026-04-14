@@ -1,0 +1,16 @@
+# Core Data and Image Processing
+numpy
+Pillow
+
+# Deep Learning Frameworks
+tensorflow>=2.10.0
+torch
+torchvision
+
+# Hugging Face Ecosystem (Essential for DeiT)
+transformers
+feature_extractor
+accelerate
+
+# Utilities
+scikit-learn

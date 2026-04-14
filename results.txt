@@ -1,0 +1,12 @@
+Epoch [1/5], Eğitim Kaybı: 1.9922
+Epoch [1/5], Doğrulama Kaybı: 1.9389, Doğruluk: 33.50%
+Epoch [2/5], Eğitim Kaybı: 1.8978
+Epoch [2/5], Doğrulama Kaybı: 1.8498, Doğruluk: 42.50%
+Epoch [3/5], Eğitim Kaybı: 1.8089
+Epoch [3/5], Doğrulama Kaybı: 1.7649, Doğruluk: 53.50%
+Epoch [4/5], Eğitim Kaybı: 1.7250
+Epoch [4/5], Doğrulama Kaybı: 1.6850, Doğruluk: 63.50%
+Epoch [5/5], Eğitim Kaybı: 1.6460
+Epoch [5/5], Doğrulama Kaybı: 1.6095, Doğruluk: 69.75%
+Train Loss: 12.3615, Train Accuracy: 70.97%
+Accuracy of the model on the test set: 72.75%
