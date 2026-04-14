@@ -8,17 +8,17 @@ import os
 import numpy as np
 from PIL import Image
 
-# Görüntüyü yükleme
+# Load Image
 def imageCrop(image_path):
     img = Image.open(image_path)
     
-    # Görüntü boyutlarını alma
+    # Get image dimensions
     width, height = img.size
     
-    # Orta noktayı hesaplama
+    # Calculate Center
     center_x, center_y = width // 2, height // 2
     
-    # Kırpılacak alanın köşe koordinatlarını hesaplama
+    # Calculate the corner coordinates of the area to be cropped
     crop_size = 224
     half_crop = crop_size // 2
     
@@ -27,11 +27,9 @@ def imageCrop(image_path):
     right = center_x + half_crop
     lower = center_y + half_crop
     
-    # Görüntüyü kırpma
+    # Crop the image
     cropped_img = img.crop((left, upper, right, lower))
     return cropped_img
-
-
 
 
 
